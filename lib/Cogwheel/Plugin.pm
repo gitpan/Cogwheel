@@ -24,9 +24,8 @@ has sprocket => (
 );
 
 has _uuid => (
-    accessor => 'uuid',
+    reader => 'uuid',
     isa     => 'Str',
-    is      => 'ro',
     default => sub { $_[0]->gen_uuid },
 );
 has name => (

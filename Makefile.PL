@@ -1,13 +1,13 @@
 # Load the Module::Install bundled in ./inc/
 use 5.8.3;
-use inc::Module::Install;
+use inc::Module::Install 0.75;
 
 # Define metadata
 name 'Cogwheel';
 all_from 'lib/Cogwheel.pm';
 
 # Specific dependencies
-requires 'Moose'                    => '0.26';
+requires 'Moose'                    => '0.58';
 requires 'Sprocket'                 => '0.07';
 requires 'POE::Filter::JSON'        => undef;
 requires 'MooseX::Getopt'           => undef;

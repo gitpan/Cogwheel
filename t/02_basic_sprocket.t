@@ -7,7 +7,7 @@ package TestPlugin;
 use POE qw(Filter::JSON Filter::Line);
 use base qw(Sprocket::Plugin);
 
-sub new { my $class = shift; return bless {@_}, $class; }
+sub new { my $class = shift; return $class->SUPER::new(@_); }
 
 sub name { 'bob' }
 

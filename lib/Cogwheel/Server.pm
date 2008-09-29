@@ -70,26 +70,47 @@ Version 0.01
 =over
 
 =item        ARGV
+
 =item        ListenAddress
+
 =item        ListenPort
+
 =item        LogLevel
+
 =item        MaxConnections
+
 =item        Name
+
 =item        Plugins
+
 =item        TimeOut
+
 =item        add_plugin
+
 =item        daemonize
+
 =item        foreground
+
 =item        meta
+
 =item        new
+
 =item        pidbase
+
 =item        pidfile
+
 =item        progname
+
 =item        push_plugin
+
 =item        remove_last_plugin
+
 =item        shutdown
+
 =item        Logger
+
 =item        extra_argv
+
 =item        log
 
 =back

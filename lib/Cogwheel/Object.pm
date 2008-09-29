@@ -15,9 +15,8 @@ has name => (
 );
 
 has _uuid => (
-    accessor => 'uuid',
+    reader => 'uuid',
     isa      => 'Str',
-    is       => 'ro',
     default  => sub { lc( Data::UUID->new->create_str() ); },
 );
 
